@@ -1,0 +1,111 @@
+.large-hero {
+  position: relative;
+
+  &__image {
+    display: block;
+  }
+
+
+  &__title {
+    position: absolute;
+    top: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px #333;
+
+    @mixin atSmall {
+      width: 100%;
+      top: 2.5rem;
+      font-size: 3.1rem;
+    }
+
+    @mixin atMedium {
+      top: 8rem;
+      font-size: 3.45rem;
+    }
+
+     @mixin atLarge {
+      text-align: left;
+      left: 5rem;
+     }
+
+     @mixin atXlarge {
+       font-size: 5rem;
+     }
+  }
+
+  &__subtitle {
+    position: absolute;
+    top: 8.5rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+
+    @mixin atSmall {
+      top: 12rem;
+    }
+
+    @mixin atMedium {
+      top: 15rem;
+    }
+
+    @mixin atLarge {
+      top: 57%;
+      right: 5rem;
+      width: 600px;
+    }
+
+    @mixin atXlarge {
+      top: 57%;
+      right: 5rem;
+      width: 950px;
+    }
+  }
+
+  &__description-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem 1.5rem;
+    font-size: .75rem;
+    font-weight: 300;
+    margin-bottom: 0.9375rem;
+    line-height: 1.5;
+    max-width: 37.5rem;
+    margin: 0 auto;
+
+    @mixin atSmall {
+      font-size: 1rem;
+    }
+
+    @mixin atLarge {
+      margin: 0;
+      right: 5rem;
+    }
+
+    @mixin atXlarge {
+      font-size: 1.6rem;
+      max-width: 70rem;
+      right: 5rem;
+      margin: 0;
+    }
+
+  }
+
+  &__btn {
+    display: block;
+    max-width: 8.75rem;
+    margin: 0 auto;
+    font-size: .75rem;
+
+    @mixin atSmall{
+      font-size: 1rem;
+      max-width: 11.25rem;
+    }
+
+    @mixin atXlarge {
+      font-size: 1.5rem;
+      max-width: 15rem;
+    }
+  }
+
+}

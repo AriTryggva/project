@@ -1,0 +1,182 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $mainGray;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $mainYellow;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.site-footer__about {
+  padding-bottom: 50px;
+  background-color: #35363b;
+}
+.social {
+  width: 55px;
+  height: 49px;
+  font-size: 30px;
+  text-align: center;
+  padding: 8px;
+  margin-right: 25px;
+  color: #858585;
+  border: 1px solid #858585;
+}
+
+.facebook:hover {
+  color: #355089;
+}
+
+.googleplus:hover {
+  color: #d34836;
+}
+
+.youtube:hover {
+  color: #cd201f;
+}
+
+.twitter:hover {
+  color: #1DA1F2;
+}
+
+
+/* title */
+
+.our-tours {
+  font-family: 'Raleway', sans-serif;
+
+  &__title-brand {
+    font-weight: 700;
+    color: #2f5572;
+  }
+
+  &__title-border {
+    text-align: center;
+    position: relative;
+  }
+
+  &__title-border::after {
+    position: absolute;
+    background: rgba(0, 0, 0, 0) url("../../assets/images/title--icon.png") no-repeat scroll 0 0;
+    bottom: 18px;
+    content: "";
+    height: 22px;
+    left: 50%;
+    margin-left: -35.5px;
+    position: absolute;
+    width: 114px;
+  }
+
+  &__title {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 300;
+    inline-height: 26px;
+    margin-bottom: 18px;
+    padding-bottom: 47px;
+    position: relative;
+    text-transform: uppercase;
+  }
+
+  &__title::after {
+    background: #bcbcbc no-repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: 85px;
+    position: absolute;
+    text-align: center;
+    width: 160px;
+  }
+
+  &__title::before {
+    background: #bcbcbc none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    right: 50%;
+    margin-right: 40px;
+    position: absolute;
+    text-align: center;
+    width: 160px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title-border {
+    position: relative;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h1 {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 18px;
+    padding-bottom: 38px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.title-border::after {
+  background: rgba(0, 0, 0, 0) url("../../assets/images/title--icon1.png") no-repeat scroll 0 0;
+  bottom: 18px;
+  content: "";
+  height: 15px;
+  left: 50%;
+  margin-left: -34.5px;
+  position: absolute;
+  width: 67px;
+}
+
+.section-title h1::before {
+    background: #bcbcbc none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-left: -193.5px;
+    position: absolute;
+    text-align: center;
+    width: 160px;
+}
+
+.section-title h1::after {
+    background: #bcbcbc none repeat scroll 0 0;
+    bottom: 0px;
+    content: "";
+    height: 1px;
+    right: 50%;
+    margin-right: -193.5px;
+    position: absolute;
+    text-align: center;
+    width: 160px;
+}
+
+@media (max-width: 767px)
+.section-title h1 {
+    font-size: 29px;
+    line-height: 42px;
+}
