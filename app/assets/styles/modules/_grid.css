@@ -28,6 +28,7 @@
 
 .row {
   margin-right: -15px;
+  margin-left: -15px;
 }
 
 .col {
@@ -66,9 +67,7 @@
 
 @media screen and (min-width: 1024px) {
 
-  .col {
-    padding: 15px;
-  }
+
   .col-md-12 {width: 100%;}
   .col-md-11 {width: 91.662%;}
   .col-md-11 {width: 91.662%;}

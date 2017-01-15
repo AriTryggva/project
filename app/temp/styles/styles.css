@@ -3728,6 +3728,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .row {
   margin-right: -15px;
+  margin-left: -15px;
 }
 
 .col {
@@ -3776,9 +3777,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 1024px) {
 
-  .col {
-    padding: 15px;
-  }
+
   .col-md-12 {width: 100%;}
   .col-md-11 {width: 91.662%;}
   .col-md-11 {width: 91.662%;}
