@@ -1,0 +1,44 @@
+.header-top {
+
+  &__slide {
+    width: 100% !important;
+    position: relative;
+
+    img {
+      width: 100% !important;
+      position: relative;
+      display: block;
+    }
+  }
+
+  &__slide-text {
+    margin-top: 25%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    right: 15px;
+    top: 0;
+    color: #fff;
+    z-index: 99;
+  }
+
+  &__slide h1 {
+  	animation: 1500ms ease-in-out 0s normal none 1 running bounceInLeft;
+  	font-size: 90px;
+  	font-weight: 700;
+  	margin-bottom: 14px;
+  	text-shadow: 0 5px 5px rgba(216, 216, 216, 0.75);
+  	text-transform: uppercase;
+  }
+
+  &__slide h2 {
+  	animation: 2000ms ease-in-out 0s normal none 1 running bounceInLeft;
+  	font-size: 40px;
+  	font-weight: 300;
+  	margin-bottom: 6px;
+  }
+
+  &__slide h1, &__slide h2 {
+    text-transform: uppercase;
+  }
+}

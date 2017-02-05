@@ -1,6 +1,10 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
   color: $mainGray;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
 }
 
 img {
@@ -13,11 +17,22 @@ img {
 }
 
 a {
-  color: $mainYellow;
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .site-footer__about {

@@ -1,0 +1,99 @@
+.header-top {
+
+  &__logo-menu-bg {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  &__logo {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+
+  &__logo, &__main-menu {
+    margin-left: 20px;
+    position: relative;
+    z-index: 9;
+  }
+
+  &__logo-image {
+    margin-left: 15px;
+  }
+
+  &__main-menu {
+    margin-left: 28px;
+  }
+
+  &__logo, &__main-menu {
+    position: relative;
+    z-index: 9;
+  }
+
+  &__menu li {
+    display: inline-block;
+    margin: 0 12px;
+  }
+
+  &__menu a {
+    color: #fff;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 112px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+  }
+
+  &__menu a:hover {
+    color: #888;
+  }
+
+  &__dropdown {
+    position: relative;
+  }
+
+  &__submenu {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 25px 0 25px 17px;
+    width: 218px;
+    z-index: 9;
+    text-align: left;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    right: auto;
+    top: 115%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  &__dropdown:hover &__submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 101%;
+  }
+
+  &__submenu li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  &__submenu a {
+    color: #4e4f54;
+    display: block;
+    text-transform: capitalize;
+    line-height: 21px;
+    position: relative;
+    font-size: 14px;
+    margin: 0 35px 0 15px;
+    padding: 7px 0;
+  }
+
+  &__submenu a:hover {
+    color: #000;
+  }
+}
